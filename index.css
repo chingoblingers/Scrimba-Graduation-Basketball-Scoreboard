@@ -1,9 +1,9 @@
 .scoreboard{
     display: flex;
-    width: 50%;
-    height: 50%;
+    width: 35.938rem;
+    height: 24.063rem;
     background-color: #1B244A;
-    margin: 0 auto;
+    margin: auto;
     justify-content: space-around;
     align-items: center;
     text-align: center;
@@ -12,4 +12,9 @@
 #home-score, #guest-score {
     background: black;
     color: #F94F6D;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
 }
