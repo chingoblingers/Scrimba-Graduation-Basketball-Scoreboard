@@ -1,33 +1,53 @@
 .scoreboard{
     display: flex;
     width: 35.938rem;
-    height: 24.063rem;
+    min-height: 24.063rem;
     background-color: #1B244A;
     margin: auto;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    
 }
 
 #home-score, #guest-score {
     background: black;
     color: #F94F6D;
-    padding: 1rem 2rem;
     font-size: 5.625rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 5px;
+    line-height: 1;
+    min-width: 155px;
+    padding: 0.9rem 0 0 0;
+}
+
+h1{
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: .5rem 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    
 }
 
 .team{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .btn-wrapper{
     display: flex;
     justify-content: space-around;
     margin-top: 1rem;
+    gap: .5rem;
 }
 
 button{
     width: 2.813rem;
     height: 2.813rem;
+    background: none;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
 }
